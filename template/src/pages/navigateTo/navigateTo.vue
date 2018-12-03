@@ -7,7 +7,7 @@
         </div>
         <div class="page-title">
             <div class="page-title-line"></div>
-            <div class="page-title-text">{{title}}</div>
+            <div class="page-title-text">\{{title}}</div>
         </div>
     </div>
 </template>

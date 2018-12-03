@@ -16,7 +16,7 @@
             >
                 <block v-for="(item,key) in items" :key="key">
                     <swiper-item :class="item.className">
-                        <div class="item">{{item.value}}</div>
+                        <div class="item">\{{item.value}}</div>
                     </swiper-item>
                 </block>
             </swiper>
@@ -37,7 +37,7 @@
             <div>
                 <div class="slider-title-time">
                     <label class="slider-title">幻灯片切换时长</label>
-                    <label class="slider-time">{{switchDuration}}ms</label>
+                    <label class="slider-time">\{{switchDuration}}ms</label>
                 </div>
                 <slider min="300" max="1500" :value="switchDuration"  @change="changeSwitchDuration"></slider>
             </div>
@@ -45,7 +45,7 @@
             <div>
                 <div class="slider-title-time">
                     <label class="slider-title">自动播放间隔时长</label>
-                    <label class="slider-time">{{autoPlayInterval}}ms</label>
+                    <label class="slider-time">\{{autoPlayInterval}}ms</label>
                 </div>
                 <slider min="1000" max="5000" :value="autoPlayInterval" @change="changeAutoPlayInterval"></slider>
             </div>

@@ -3,7 +3,7 @@
         <div class="page-body">
         </div>
         <div class="page-title detail-title">
-            <div class="page-title-text">{{title}}</div>
+            <div class="page-title-text">\{{title}}</div>
             <div class="page-title-line"></div>
         </div>
     </div>

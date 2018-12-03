@@ -6,7 +6,7 @@
                 <div :class="index === 0 ? 'label-1 label-first': 'label-1'" v-for="(item, index, key) in checkboxItems" :key="key">
                     <label>
                         <checkbox :value="item.name" :checked="item.checked"></checkbox>
-                        <span class="label-1-text">{{item.value}}</span>
+                        <span class="label-1-text">\{{item.value}}</span>
                     </label>
                 </div>
             </checkbox-group>
@@ -16,7 +16,7 @@
             <radio-group class="group">
                 <div :class="index === 0 ? 'label-2 label-first': 'label-2'" v-for="(item, index, key) in radioItems" :key="key">
                     <radio :id="item.name" :value="item.name" :checked="item.checked"></radio>
-                    <label class="label-2-text" :for="item.name"><span>{{item.value}}</span></label>
+                    <label class="label-2-text" :for="item.name"><span>\{{item.value}}</span></label>
                 </div>
             </radio-group>
         </div>

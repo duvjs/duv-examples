@@ -1,11 +1,11 @@
 <template>
     <div class="container">
         <div class="page-body">
-            <button v-for="(item, key) in items" :key="key" :id="item.id" @click="btnClick" type="primary" hover-stop-propagation="true">{{item.name}}</button>
+            <button v-for="(item, key) in items" :key="key" :id="item.id" @click="btnClick" type="primary" hover-stop-propagation="true">\{{item.name}}</button>
         </div>
         <div class="page-title">
             <div class="page-title-line"></div>
-            <div class="page-title-text">{{title}}</div>
+            <div class="page-title-text">\{{title}}</div>
         </div>
     </div>
 </template>

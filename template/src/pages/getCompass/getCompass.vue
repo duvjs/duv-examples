@@ -1,7 +1,7 @@
 <template>
     <view class="wrap">
         <view class="page-top">
-            <view class="page-top-text">{{title}}</view>
+            <view class="page-top-text">\{{title}}</view>
             <view class="page-top-line"></view>
         </view>
 
@@ -18,7 +18,7 @@
                 <div class="circle-right-wrap"><div class="circle-right" :style="'transform:rotate(' + rightdeg + 'deg);transform-origin:50% 50%'"></div></div>
                 <div class="mask">
                     <view class="direction-num">
-                        <text>{{direction}}</text>
+                        <text>\{{direction}}</text>
                         <text class="direction-degree"></text>
                     </view>
                 </div>
@@ -28,7 +28,7 @@
             <view :class="!iswatch ? 'middle-btn' : 'middle-btn disabled'" @click="startWatch">开始监听</view>
             <view :class="!iswatch ? 'middle-btn disabled' : 'middle-btn'" @click="stopWatch">停止监听</view >
         </view>
-        <view>{{res}}</view>
+        <view>\{{res}}</view>
     </view>
 </template>
 

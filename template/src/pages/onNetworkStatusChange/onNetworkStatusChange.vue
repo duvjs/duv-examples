@@ -2,11 +2,11 @@
     <div class="container">
         <div class="page-body">
             <div class="title">当前网络状态</div>
-            <div class="page-info">{{networkType}}</div>
+            <div class="page-info">\{{networkType}}</div>
         </div>
         <div class="page-title">
             <div class="page-title-line"></div>
-            <div class="page-title-text">{{title}}</div>
+            <div class="page-title-text">\{{title}}</div>
         </div>
     </div>
 </template>

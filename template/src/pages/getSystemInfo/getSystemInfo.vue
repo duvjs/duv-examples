@@ -3,8 +3,8 @@
         <div class="page-body">
             <div class="info-ctn">
                 <div class="info-item" v-for="(item, key) in infoList" :key="key">
-                    <text class="info-label">{{item.label}}：</text>
-                    <text class="info-value">{{item.value}}</text>
+                    <text class="info-label">\{{item.label}}：</text>
+                    <text class="info-value">\{{item.value}}</text>
                 </div>
             </div>
             <div class="btn-ctn">
@@ -14,7 +14,7 @@
         </div>
         <div class="page-title">
             <div class="page-title-line"></div>
-            <div class="page-title-text">{{title}}</div>
+            <div class="page-title-text">\{{title}}</div>
         </div>
     </div>
 </template>

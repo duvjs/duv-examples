@@ -16,7 +16,7 @@
                         </div>
                     </label>
                     <div class="checkbox-item">
-                        <checkbox :value="item.value" :checked="item.checked" :id="item.id">&nbsp;&nbsp;{{item.text}}</checkbox>
+                        <checkbox :value="item.value" :checked="item.checked" :id="item.id">&nbsp;&nbsp;\{{item.text}}</checkbox>
                     </div>
                 </div>
             </form>

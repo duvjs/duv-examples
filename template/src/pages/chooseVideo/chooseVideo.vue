@@ -1,6 +1,6 @@
 <template>
     <div class="wrap">
-        {{a}}
+        \{{a}}
         <div class="chooseBox">
             <div class="chooseBtn" @click="chooseVideo" v-if="!showVideo">
                 <img :src="icon" class="chooseIcon" />
@@ -19,7 +19,7 @@
             </div>
             <div class="duration border-bottom">
                 <text>拍摄长度</text>
-                <text>{{maxDuration}}秒</text>
+                <text>\{{maxDuration}}秒</text>
             </div>
         </div>
     </div>

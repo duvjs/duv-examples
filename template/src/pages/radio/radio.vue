@@ -11,7 +11,7 @@
             <radio-group @change="radioChange">
                 <label v-for="(item,key) in items" :key="key" class="radio-background-active" :for="item.id">
                     <div class="item">
-                        <radio :value="item.value" :checked="item.checked" :id="item.id">&nbsp;&nbsp;{{item.text}}</radio>
+                        <radio :value="item.value" :checked="item.checked" :id="item.id">&nbsp;&nbsp;\{{item.text}}</radio>
                     </div>
                 </label>
             </radio-group>

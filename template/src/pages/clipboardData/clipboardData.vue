@@ -2,18 +2,18 @@
     <div class="container">
         <div class="page-body">
             <div class="page-item">
-                <div class="info">{{originData}}</div>
+                <div class="info">\{{originData}}</div>
                 <button id="setClipboardData" class="btn" @click="btnClick" type="primary" hover-stop-propagation="true">复制</button>
             </div>
             <div class="page-item">
-                <div class="info">{{clipboardData}}</div>
+                <div class="info">\{{clipboardData}}</div>
                 <button id="getClipboardData" class="btn" @click="btnClick" type="primary" hover-stop-propagation="true">粘贴</button>
             </div>
         </div>
 
         <div class="page-title">
             <div class="page-title-line"></div>
-            <div class="page-title-text">{{title}}</div>
+            <div class="page-title-text">\{{title}}</div>
         </div>
     </div>
 </template>

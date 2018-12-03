@@ -10,7 +10,7 @@
             <input class="ipt" maxlength="10" placeholder="最大输入长度为10" />
         </div>
         <div class="section">
-            <div class="title">实时获取输入值：{{inputValue}}</div>
+            <div class="title">实时获取输入值：\{{inputValue}}</div>
             <input class="ipt" @input="bindKeyInput" placeholder="输入同步到view中" maxlength="19"/>
         </div>
 

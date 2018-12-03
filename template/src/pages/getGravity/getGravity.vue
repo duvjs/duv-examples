@@ -1,7 +1,7 @@
 <template>
     <div class="wrap">
         <div class="page-top">
-            <div class="page-top-text">{{title}}</div>
+            <div class="page-top-text">\{{title}}</div>
             <div class="page-top-line"></div>
         </div>
         <div class="page-body-canvas">
@@ -9,9 +9,9 @@
             <canvas class="page-body-ball" :show="true" canvas-id="small-ball"></canvas>
         </div>
         <div class="page-body-xyz">
-            <text class="page-body-title">X: {{x}}</text>
-            <text class="page-body-title">Y: {{y}}</text>
-            <text class="page-body-title">Z: {{z}}</text>
+            <text class="page-body-title">X: \{{x}}</text>
+            <text class="page-body-title">Y: \{{y}}</text>
+            <text class="page-body-title">Z: \{{z}}</text>
         </div>
         <div class="page-body-btn">
             <div :class="!iswatch ? 'middle-btn' : 'middle-btn disabled'" @click="startWatch">开始监听</div>

@@ -8,13 +8,13 @@
         <div v-for="(item, index, key) in items" :key="key" class="group-bd">
             <div :class="item.open ? 'item border-bottom ' : 'item border-bottom item-close'" @click="toggleClick" :data-index="index" :data-id="item.id">
                 <img class="item-logo" :src="item.icon" />
-                <text class="item-desc">{{item.name}}</text>
+                <text class="item-desc">\{{item.name}}</text>
                 <img v-if="item.id" class="item-logo item-toggle" src="../../images/right_arrow.png" />
                 <img v-else class="item-logo item-toggle" :src="item.open ? '../../images/close.png' : '../../images/open.png'" />
             </div>
             <view v-if="item.open">
                 <view class="sub-item border-bottom" v-for="(subItem,key) in item.list" :key="key" @click="oneItemClick" :data-id="subItem.id">
-                    <text class="sub-item-desc">{{subItem.subName}}</text>
+                    <text class="sub-item-desc">\{{subItem.subName}}</text>
                     <img class="item-logo sub-item-goto" src="../../images/right_arrow.png" />
                 </view>
             </view>

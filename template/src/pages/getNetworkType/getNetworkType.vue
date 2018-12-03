@@ -2,13 +2,13 @@
     <div class="container">
         <div class="page-body">
             <div class="title">当前网络状态</div>
-            <div class="page-info">{{networkType}}</div>
+            <div class="page-info">\{{networkType}}</div>
             <button class="btn" @click="getNetworkType" type="primary" hover-stop-propagation="true">点击获取网络状态</button>
             <button @click="clearClick" hover-stop-propagation="true">清空</button>
         </div>
         <div class="page-title">
             <div class="page-title-line"></div>
-            <div class="page-title-text">{{title}}</div>
+            <div class="page-title-text">\{{title}}</div>
         </div>
     </div>
 </template>

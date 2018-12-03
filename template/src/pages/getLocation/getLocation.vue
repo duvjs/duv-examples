@@ -2,14 +2,14 @@
     <div class="container">
         <div class="page-body">
             <div class="title">当前位置经纬度</div>
-            <div v-if="location" class="info">E: {{location.longitude[0]}}°{{location.longitude[1]}}′ N: {{location.latitude[0]}}°{{location.latitude[1]}}′</div>
+            <div v-if="location" class="info">E: \{{location.longitude[0]}}°\{{location.longitude[1]}}′ N: \{{location.latitude[0]}}°\{{location.latitude[1]}}′</div>
             <div v-else class="info">未获取</div>
             <button @click="getLocation" type="primary" :loading="loading" hover-stop-propagation="true">点击获取位置信息</button>
             <button @click="clearLocation" hover-stop-propagation="true">清空</button>
         </div>
         <div class="page-title">
             <div class="page-title-line"></div>
-            <div class="page-title-text">{{title}}</div>
+            <div class="page-title-text">\{{title}}</div>
         </div>
     </div>
 </template>

@@ -6,7 +6,7 @@
                 <div class="section-title">当前选择</div>
                 <picker id="section1" mode="time" :value="time" start="1:01" end="22:59" @change="timeChange">
                     <div class="picker">
-                        {{time}}
+                        \{{time}}
                     </div>
                 </picker>
             </label>
@@ -17,7 +17,7 @@
                 <div class="section-title">当前选择</div>
                 <picker id="section2" mode="date" :value="dateDay" @change="dateChangeDay" fields="day">
                     <div>
-                        {{dateDay}}
+                        \{{dateDay}}
                     </div>
                 </picker>
             </label>
@@ -27,7 +27,7 @@
                 <div class="section-title">当前选择</div>
                 <picker id="section3" mode="date" :value="dateMonth" @change="dateChangeMonth" fields="month">
                     <div>
-                        {{dateMonth}}
+                        \{{dateMonth}}
                     </div>
                 </picker>
             </label>
@@ -37,7 +37,7 @@
                 <div class="section-title">当前选择</div>
                 <picker id="section4" mode="date" :value="dateYear" @change="dateChangeYear" fields="year">
                     <div>
-                        {{dateYear}}
+                        \{{dateYear}}
                     </div>
                 </picker>
             </label>
@@ -48,7 +48,7 @@
                 <div class="section-title">当前选择</div>
                 <picker id="section5" mode="region" @change="regionChange" :custom-item="customItem" title="地区选择器">
                     <div class="picker">
-                        {{regionData[0]}} {{regionData[1]}} {{regionData[2]}}
+                        \{{regionData[0]}} \{{regionData[1]}} \{{regionData[2]}}
                     </div>
                 </picker>
             </label>

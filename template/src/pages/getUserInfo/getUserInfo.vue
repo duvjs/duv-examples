@@ -3,7 +3,7 @@
         <div class="user-content">
             <div class="user-info">
                 <img class="avator" :src="imageSrc" />
-                <div :class="nameColor + ' nickname'">{{nickname}}</div>
+                <div :class="nameColor + ' nickname'">\{{nickname}}</div>
             </div>
             <div class="button-content">
                 <button @click="getUserInfo" class="get-info" type="primary" hover-stop-propagation="true">获取用户信息</button>
@@ -12,7 +12,7 @@
         </div>
         <div class="page-title">
             <div class="page-title-line"></div>
-            <div class="page-title-text">{{title}}</div>
+            <div class="page-title-text">\{{title}}</div>
         </div>
     </div>
 

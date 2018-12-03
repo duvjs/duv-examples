@@ -1,6 +1,6 @@
 <template>
     <div class="wrap">
-        <span>{{text}}</span>
+        <span>\{{text}}</span>
         <button class="btn" type="primary" @click="add">add text</button>
         <button class="btn" type="primary" @click="remove">remove text</button>
     </div>
