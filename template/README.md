@@ -1,3 +1,3 @@
-# duv-demo
+# duv-examples
 
-duv工具demo项目
+duv工具examples项目
